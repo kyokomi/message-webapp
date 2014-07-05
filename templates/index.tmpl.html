@@ -1,0 +1,17 @@
+<h1>Hello!</h1>
+<p>{{.Msg}}</p>
+<hr>
+<p>Message Model</p>
+
+<table border="1">
+{{range $index, $data := .Datas}}
+<tr>
+    <td>{{ $data.Id }}</td>
+    <td>{{ $data.Name }}</td>
+    <td>{{ $data.Mail }}</td>
+    <td>{{ $data.Message }}</td>
+    <td>{{ $data.PostData }}</td>
+</tr>
+{{end}}
+</table>
+<hr>

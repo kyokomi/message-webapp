@@ -24,3 +24,5 @@ _testmain.go
 /gin-bin
 .idea
 
+# DB
+/database
